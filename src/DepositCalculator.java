@@ -5,8 +5,8 @@ import java.util.Scanner;
         double pay = a * Math.pow((1 + y/12), 12 * d);
           return round(pay, 2);
         }
-        double calculateSimplePercentFunction(double doubleAmount,double double_year_rate, int deposit_period){
-          return round(doubleAmount + doubleAmount * double_year_rate * deposit_period, 2);
+        double calculateSimplePercentFunction(double doubleAmount,double doubleYearRate, int depositPeriod){
+          return round(doubleAmount + doubleAmount * doubleYearRate * depositPeriod, 2);
       }
         double round(double value,int places) {
         double ScaLe = Math.pow(10, places);
